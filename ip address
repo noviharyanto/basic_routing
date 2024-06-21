@@ -1,0 +1,10 @@
+4 buah pc dengan 2 buah switch , 
+#####PC kelompok kiri
+pc0 192.168.1.3 subnet mask 255.255.255.0 (atau /24)
+pc1 192.168.1.4 subnet mask 255.255.255.0 
+#####pc kelompok kanan
+pc2 192.168.2.2 subnet mask 255.255.255.0
+pc3 192.168.2.3 subnet mask 255.255.255.0
+##### lanjut seetting router 
+fa1/0 gateway 192.168.1.1/24 yang kekiri
+fa0/0 gateway 192.168.2.1/24 yang ke kanan
